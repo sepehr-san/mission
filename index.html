@@ -81,6 +81,25 @@
     ✨
   </footer>
   <script src="scripts.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>
+    (function(){
+      emailjs.init({
+              publicKey: "xfNZPYIwtWfalOatw",
+            });
+    })();
+
+    window.onload = function() {
+        emailjs.send("service_sryzzu9", "template_2728zef", {
+            message: "test3"
+        }).then(function(response) {
+            console.log("Email sent!", response.status, response.text);
+        }, function(error) {
+            console.error("Failed to send email", error);
+        });
+    };
+  </script>
+
 </body>
 
 </html>
