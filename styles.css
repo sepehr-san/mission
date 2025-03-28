@@ -1,0 +1,100 @@
+/* Dark Magic Theme - Classy Edition */
+body {
+  background: #121212;
+  color: #dcdcdc;
+  font-family: 'Vazirmatn', serif;
+  text-align: center;
+  padding: 20px;
+  direction: rtl;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #1e1e1e;
+  border-radius: 10px;
+}
+
+#score-label {
+  font-size: 1.2em;
+  color: #c4a484;
+  margin-right: 10px;
+  font-weight: 700;
+}
+
+#score {
+  font-size: 1.5em;
+  color: #c4a484;
+}
+
+.card {
+  background: #1c1c1c;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 15px;
+  border: 1px solid #444;
+  max-width: 600px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #e0c097;
+}
+
+.card-description {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #bdbdbd;
+  text-align: justify;
+}
+
+.gift {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  padding: 10px;
+  background: #292929;
+  border-radius: 10px;
+  border: 1px solid #555;
+}
+
+.gift-name {
+  font-size: 1.1em;
+  color: #c4a484;
+  font-weight: bold;
+}
+
+.gift-type {
+  font-size: 1.5em;
+  padding-top: 0.5rem;
+  text-align: center;
+  line-height: 1;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 10px;
+  font-size: 1.8rem;
+  color: #888;
+}
+
+.hint {
+  margin-top: 15px;
+  padding: 10px;
+  background: #252525;
+  border-right: 4px solid #e0c097;
+  font-size: 1em;
+  color: #d1b38c;
+  font-style: italic;
+  text-align: right;
+  border-radius: 5px;
+}
