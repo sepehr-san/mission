@@ -10,8 +10,10 @@ body {
 
 header {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
+  height: 100px;
   padding: 15px;
   background: #1e1e1e;
   border-radius: 10px;
@@ -20,13 +22,19 @@ header {
 #score-label {
   font-size: 1.2em;
   color: #c4a484;
-  margin-right: 10px;
   font-weight: 700;
 }
 
 #score {
-  font-size: 1.5em;
+  width: 150px;
+  height: fit-content;
+  font-size: 1.2em;
   color: #c4a484;
+  border-radius: 15px;
+  border: 1px solid #444;
+  background-color: #1c1c1c;
+  text-align: left;
+  padding: .5rem;
 }
 
 .card {
@@ -55,7 +63,14 @@ header {
   color: #bdbdbd;
   text-align: justify;
 }
-
+li {
+  text-align: right;
+  text-align: justify;
+  color: #bdbdbd;
+}
+.yellow {
+  color: #e0c097;
+}
 .gift {
   display: flex;
   justify-content: space-between;
